@@ -1,40 +1,70 @@
-<!-- Daimond game  -->
-Card Game – Basic Conditions
+# Diamond Card Game
 
-Total Cards:The deck has 52 cards.
+## 📌 Overview
+Diamond Card Game is a simple card game played using a standard 52-card deck.  
+The game focuses on strategy and card comparison, where **Diamonds** play a special role.
 
-Suits (4Sets)
-Hearts ♥,Diamonds ♦,Clubs ♣,Spades ♠
+---
 
-Cards in Each Suit:Each suit has 13 cards.
+## 🃏 Card Game – Basic Conditions
 
-Card Values (Lowest to Highest)
-2, 3, 4, 5, 6, 7, 8, 9, 10
+### Total Cards
+- The deck contains **52 cards**.
 
-Jack (J),Queen (Q),King (K),Ace (A) → highest value card
+### Suits (4 Sets)
+- Hearts ♥  
+- Diamonds ♦  
+- Clubs ♣  
+- Spades ♠  
 
-Face Cards:Jack, Queen, and King are called face cards.
+### Cards in Each Suit
+- Each suit has **13 cards**.
 
-Ace Rule:Ace is the highest card in the game.
+### Card Values (Lowest to Highest)
+- 2, 3, 4, 5, 6, 7, 8, 9, 10  
+- Jack (J)  
+- Queen (Q)  
+- King (K)  
+- **Ace (A)** → *Highest value card*
 
-No Jokers
-Jokers are not used in this deck.
+### Face Cards
+- Jack, Queen, and King are called **face cards**.
 
-<!-- problem statement  -->
-Suit Rules:
-Diamond suit is placed in the center of the table.
-The Diamond suit always remains in the center throughout the game.
-The other three suits (Hearts, Clubs, Spades) are:
-Distributed to the 3 players
-One suit per player
-Any remaining suits are out of the game.
+### Ace Rule
+- **Ace is the highest card** in the game.
 
-Game Play Rules:
-In each round, every player throws one card from their suit.
-The highest-value card among the 3 players wins that round.
-The player who wins the round takes the top card from the Diamond suit (center pile).
-This continues until all Diamond cards are taken.
+### No Jokers
+- Jokers are **not used** in this game.
 
-Winning Condition:
-At the end of the game, the player who has the highest-value Diamond card is declared the winner.
-Since Ace is the highest, the player holding the Ace of Diamonds wins the game.
+---
+
+## 🎯 Problem Statement & Rules
+
+### Suit Rules
+- The **Diamond suit** is placed in the **center of the table**.
+- The Diamond suit **always remains in the center** throughout the game.
+- The remaining three suits (**Hearts, Clubs, Spades**) are:
+  - Distributed among **3 players**
+  - **One suit per player**
+- Any **remaining suits** are **out of the game**.
+
+---
+
+## ▶️ Game Play Rules
+1. In each round, **each player throws one card** from their assigned suit.
+2. The **highest-value card** among the 3 players **wins the round**.
+3. The round winner **takes the top card from the Diamond suit** (center pile).
+4. The game continues until **all Diamond cards are taken**.
+
+---
+
+## 🏆 Winning Condition
+- At the end of the game, the player who holds the **highest-value Diamond card** is declared the **winner**.
+- Since **Ace is the highest**, the player holding the **Ace of Diamonds** wins the game.
+
+---
+
+## ✅ Conclusion
+This game combines simple rules with competitive gameplay, making it easy to understand and fun to play.
+
+---
