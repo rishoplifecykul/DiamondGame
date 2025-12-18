@@ -4,10 +4,6 @@
 Diamond Card Game is a simple card game played using a standard 52-card deck.  
 The game focuses on strategy and card comparison, where **Diamonds** play a special role.
 
----
-
-## Card Game – Basic Conditions
-
 ### Total Cards
 - The deck contains **52 cards**.
 
@@ -61,9 +57,6 @@ The game focuses on strategy and card comparison, where **Diamonds** play a spec
 ##  Winning Condition
 - At the end of the game, the player who holds the **highest-value Diamond card** is declared the **winner**.
 - Since **Ace is the highest**, the player holding the **Ace of Diamonds** wins the game.
-
----
-
 
 
 ---
