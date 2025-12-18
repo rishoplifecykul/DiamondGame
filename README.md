@@ -32,8 +32,6 @@ The game focuses on strategy and card comparison, where **Diamonds** play a spec
 ### No Jokers
 - Jokers are **not used** in this game.
 
----
-
 ##  Problem Statement & Rules
 
 ### Suit Rules
@@ -44,7 +42,6 @@ The game focuses on strategy and card comparison, where **Diamonds** play a spec
   - **One suit per player**
 - Any **remaining suits** are **out of the game**.
 
----
 
 ##  Game Play Rules
 1. In each round, **each player throws one card** from their assigned suit.
