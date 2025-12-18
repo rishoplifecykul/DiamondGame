@@ -1,59 +1,43 @@
-# Diamond Card Game
+# Diamond Game - Project Breakdown
 
-##  Overview
-Diamond Card Game is a simple card game played using a standard 52-card deck.  
-The game focuses on strategy and card comparison, where **Diamonds** play a special role.
+## Overview
+This project implements a strategy card game (also known as "Goofspiel") where players bid for prize cards using their own suit of cards.
 
-### Total Cards
-- The deck contains **52 cards**.
+## Game Mechanics
+- **Objective**: Collect the most points from the Prize deck (Diamonds).
+- **Players**: 2 or 3 (Human vs Computer).
+- **Flow**: 
+    1. A Prize card is revealed.
+    2. Players secretly choose a bid card.
+    3. Highest bid wins the Prize.
+    4. Ties split the points.
 
-### Suits (4 Sets)
-- Hearts ♥  
-- Diamonds ♦  
-- Clubs ♣  
-- Spades ♠  
+## Components Breakdown
 
-### Cards in Each Suit
-- Each suit has **13 cards**.
+### 1. Card & Deck System
+- **Card**: Represents a standard playing card (Suit + Rank).
+- **Deck**: Manages shuffling and dealing.
+- **Ranks**: 2-10 (Face Value), J(11), Q(12), K(13), A(14).
 
-### Card Values (Lowest to Highest)
-- 2, 3, 4, 5, 6, 7, 8, 9, 10  
-- Jack (J)  
-- Queen (Q)  
-- King (K)  
-- **Ace (A)** → *Highest value card*
+### 2. Player System
+- **Human Player**: Inputs moves via console.
+- **Computer Player**: Automates moves using a Strategy engine.
+- **State**: Tracks current Hand and Score.
 
-### Face Cards
-- Jack, Queen, and King are called **face cards**.
+### 3. Strategy Engine
+The AI needs to be smarter than random guessing.
+- **Random Bot**: Unpredictable but inefficient.
+- **Smart Bot**: 
+    - **Value Evaluation**: Bids higher for valuable prizes.
+    - **Memory**: Remembers what high cards you have played. If you wasted your Ace on a 2, it knows it can beat you later with a King.
 
-### Ace Rule
-- **Ace is the highest card** in the game.
+### 4. Game Loop (Main)
+- Handles the 13 rounds of play.
+- Prints status: "Prize is [D-K]. You played [H-K]. CPU played [S-A]. CPU Wins!"
+- Calculates final scores.
 
-### No Jokers
-- Jokers are **not used** in this game.
-
-##  Problem Statement & Rules
-
-### Suit Rules
-- The **Diamond suit** is placed in the **center of the table**.
-- The Diamond suit **always remains in the center** throughout the game.
-- The remaining three suits (**Hearts, Clubs, Spades**) are:
-  - Distributed among **3 players**
-  - **One suit per player**
-- Any **remaining suits** are **out of the game**.
-
-
-##  Game Play Rules
-1. In each round, **each player throws one card** from their assigned suit.
-2. The **highest-value card** among the 3 players **wins the round**.
-3. The round winner **takes the top card from the Diamond suit** (center pile).
-4. The game continues until **all Diamond cards are taken**.
-
----
-
-##  Winning Condition
-- At the end of the game, the player who holds the **highest-value Diamond card** is declared the **winner**.
-- Since **Ace is the highest**, the player holding the **Ace of Diamonds** wins the game.
-
-
----
+## Roadmap
+1. **Model Implementation**: Create the basic Card/Deck/Player classes.
+2. **Game Engine**: Get the loop working with 2 players (Random vs Random).
+3. **Strategy Development**: Implement the "Smart" logic.
+4. **Interactive UI**: Polish the text output for the human player.
