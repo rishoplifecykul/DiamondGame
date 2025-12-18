@@ -1,12 +1,12 @@
 # Diamond Card Game
 
-## 📌 Overview
+##  Overview
 Diamond Card Game is a simple card game played using a standard 52-card deck.  
 The game focuses on strategy and card comparison, where **Diamonds** play a special role.
 
 ---
 
-## 🃏 Card Game – Basic Conditions
+## Card Game – Basic Conditions
 
 ### Total Cards
 - The deck contains **52 cards**.
@@ -38,7 +38,7 @@ The game focuses on strategy and card comparison, where **Diamonds** play a spec
 
 ---
 
-## 🎯 Problem Statement & Rules
+##  Problem Statement & Rules
 
 ### Suit Rules
 - The **Diamond suit** is placed in the **center of the table**.
@@ -50,7 +50,7 @@ The game focuses on strategy and card comparison, where **Diamonds** play a spec
 
 ---
 
-## ▶️ Game Play Rules
+##  Game Play Rules
 1. In each round, **each player throws one card** from their assigned suit.
 2. The **highest-value card** among the 3 players **wins the round**.
 3. The round winner **takes the top card from the Diamond suit** (center pile).
@@ -58,13 +58,12 @@ The game focuses on strategy and card comparison, where **Diamonds** play a spec
 
 ---
 
-## 🏆 Winning Condition
+##  Winning Condition
 - At the end of the game, the player who holds the **highest-value Diamond card** is declared the **winner**.
 - Since **Ace is the highest**, the player holding the **Ace of Diamonds** wins the game.
 
 ---
 
-## ✅ Conclusion
-This game combines simple rules with competitive gameplay, making it easy to understand and fun to play.
+
 
 ---
